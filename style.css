@@ -39,7 +39,7 @@ kbd{
     font-size: 30px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background-color:  rgb(246, 184, 30);
+    background-color:  ;
     border: 2px solid rgba (239,0,0,1.00);
     z-index 100;
     cursor: pointer;
@@ -48,5 +48,22 @@ kbd{
 
 .grid{
     display: flex;
-    
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    margin-bottom: 80px;
 }
+.grid div{
+    width: 20px;rgb(246, 184, 30)
+    height: 20px;
+}
+.pac-dot{
+    background-color: rgb(246, 184, 30);
+    border: 7px solid rgba(10, 7, 67, 1.00);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.wall{
+    background-color: darkblue;
+}
+.power
