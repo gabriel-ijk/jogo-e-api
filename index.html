@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://kit.fontweasome.com/ca42bbbf84.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>pac man</title>
 </head>
 <body>
-    <button id="play" onclick="document.getElementById('play').style.display = 'none'; document.getElementById('h2bestScore').style.display = 'block'; document.getElementById('footer').style.display = 'none'; document.getElementById('mobile').style.display = 'none'"></button>
+    <button id="play" onclick="document.getElementById('play').style.display = 'none'; document.getElementById('h2bestScore').style.display = 'block'; document.getElementById('footer').style.display = 'none'; document.getElementById('mobile').style.display = 'none'">COMEÇAR</button>
+    <script src="script.js" charset="UTF-8"></script>
+    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/a/a2/Pac-Man_Logo.svg/langfr-1920px-Pac_Man_Logo.svg.png" alt="logo  pac man" id="logo">
+    <h2>PONTUAÇÂO: <span id="score">0</span></h2>
+    <p id="computer">Use<kbd>a</kbd><kbd>w</kbd><kbd>d</kbd><kbd>s</kbd> para jogar</p>
+    <p id="mobile"> deslize para cima, baixo, esquerda, ou direita para mover o pac man</p>
+    <div class="grid"></div>
+    <h2 id="h2bestScore" style="display: none;">Sua melhor ponttuação ;<span id="bestScore">0</span></h2>
 </body>
 </html>
